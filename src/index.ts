@@ -22,8 +22,4 @@ const handler = (event: { summonerName: string; game: keyof typeof BASE_URLS }):
     )
   )();
 
-const response = await handler({ summonerName: "Koalas", game: "LOL" });
-
-console.log(response);
-
 export default handler;
