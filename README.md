@@ -1,4 +1,4 @@
-# riot
+# riot-username-validator
 
 To install dependencies:
 
