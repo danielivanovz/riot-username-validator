@@ -1,5 +1,5 @@
 {
-  "name": "riot",
+  "name": "riot-username-validator",
   "module": "index.ts",
   "type": "module",
   "peerDependencies": {
