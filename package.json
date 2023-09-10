@@ -1,0 +1,19 @@
+{
+  "name": "riot",
+  "module": "index.ts",
+  "type": "module",
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "scripts": {
+    "start": "bun run src/index.ts",
+    "build": "bun build src/index.ts --outdir ./out --minify-whitespace --minify-identifiers --minify-syntax"
+  },
+  "dependencies": {
+    "fp-ts": "^2.16.1",
+    "typescript": "^5.2.2"
+  },
+  "devDependencies": {
+    "bun-types": "^1.0.1"
+  }
+}
